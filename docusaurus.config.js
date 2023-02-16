@@ -6,12 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Site Euphrates | Code of Ethics',
+  tagline: '',
   favicon: 'img/favicon.ico',
+  
+  
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://site-x.pages.dev/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +23,7 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -38,19 +40,23 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+           'https://github.com/TiagoVXII/site-x/tree/main',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+           'https://github.com/TiagoVXII/site-x/tree/main',
         },
+       
+        
+       
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -62,23 +68,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/favicon.ico',
       navbar: {
-        title: 'My Site',
+        title: 'Site-X | Code of Ethics',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon-32x32.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Code of Ethics',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/TiagoVXII/site-x',
             label: 'GitHub',
             position: 'right',
           },
@@ -91,8 +96,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Code of Ethics',
+                to: '/',
               },
             ],
           },
@@ -100,16 +105,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'N/A',
+                href: 'N/A',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/gQPgpp4aDe',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'N/A',
+                href: 'N/A',
               },
             ],
           },
@@ -117,18 +122,37 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Documents',
+                to: '/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/TiagoVXII/site-x',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      logo: {
+      alt: 'Image',
+      src: '/img/wolfstudios.jpg',
+      href: 'https://discord.gg/gQPgpp4aDe',
       },
+        copyright: `Copyright © ${new Date().getFullYear()} Site Euphrates, Inc. Built with Docusaurus. Powered by Wolf Studios.`,
+      },
+announcementBar: {
+        id: 'announce_bar',
+        content:
+          'The Code of Ethics is subject to change at any time. Major changes will be announced in the main communications server.',
+        backgroundColor: '#0000001a',
+        textColor: '#5f98c0',
+        isCloseable: false,
+},
+      colorMode: {
+  defaultMode: 'dark',
+  disableSwitch: true,
+  respectPrefersColorScheme: false
+},
+
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
@@ -137,3 +161,4 @@ const config = {
 };
 
 module.exports = config;
+
