@@ -80,7 +80,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Code of Ethics',
+            label: 'Handbooks',
           },
           {
             href: 'https://github.com/TiagoVXII/site-x',
@@ -96,7 +96,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Code of Ethics',
+                label: 'Handbooks',
                 to: '/',
               },
             ],
@@ -122,7 +122,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Documents',
+                label: 'Handbooks',
                 to: '/',
               },
               {
@@ -142,7 +142,7 @@ const config = {
 announcementBar: {
         id: 'announce_bar',
         content:
-          'The Code of Ethics is subject to change at any time. Major changes will be announced in the main communications server.',
+          'The Handbook is subject to change at any time. Major changes will be announced in the main communications server.',
         backgroundColor: '#0000001a',
         textColor: '#5f98c0',
         isCloseable: false,
