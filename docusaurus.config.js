@@ -137,7 +137,7 @@ const config = {
       src: '/img/wolfstudios.jpg',
       href: 'https://discord.gg/gQPgpp4aDe',
       },
-        copyright: `Copyright © ${new Date().getFullYear()} Site Euphrates, Inc. Built with Docusaurus. Powered by Wolf Studios.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Site X, Inc. Built with Docusaurus. Powered by Wolf Studios.`,
       },
 announcementBar: {
         id: 'announce_bar',
