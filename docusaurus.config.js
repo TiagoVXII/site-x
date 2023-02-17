@@ -108,7 +108,7 @@ const config = {
         ],
       logo: {
       alt: 'Image',
-      src: '/img/wolfstudios.jpg',
+      src: '/img/favicon.ico',
       href: 'https://discord.gg/gQPgpp4aDe',
       },
         copyright: `Copyright © ${new Date().getFullYear()} Site X, Inc. Built with Docusaurus. Powered by Wolf Studios.`,
