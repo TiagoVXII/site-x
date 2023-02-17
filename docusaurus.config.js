@@ -80,7 +80,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Handbooks',
+            label: 'Introduction',
           },
           {
             href: 'https://github.com/TiagoVXII/site-x',
