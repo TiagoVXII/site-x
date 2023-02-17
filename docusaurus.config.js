@@ -109,7 +109,7 @@ const config = {
       logo: {
       alt: 'Image',
       src: '/img/favicon.ico',
-      href: 'https://discord.gg/gQPgpp4aDe',
+      href: 'https://discord.gg/fCax8BYdv8',
       },
         copyright: `Copyright © ${new Date().getFullYear()} Site X, Inc. Built with Docusaurus. Powered by Wolf Studios.`,
       },
