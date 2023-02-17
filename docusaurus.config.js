@@ -93,29 +93,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Handbooks',
-                to: '/',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
               {
                 label: 'Discord',
                 href: 'https://discord.gg/gQPgpp4aDe',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Handbooks',
-                to: '/',
               },
               {
                 label: 'GitHub',
