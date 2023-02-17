@@ -108,7 +108,7 @@ const config = {
         ],
       logo: {
       alt: 'Image',
-      src: '/img/favicon.ico',
+      src: '/img/ThatWElRD_Dude_scp_foundation_badge_ETA-10_metalic_with_an_eye_2e41844a-3fee-4915-967d-4b43bd25ef28-removebg-preview.png',
       href: 'https://discord.gg/fCax8BYdv8',
       },
         copyright: `Copyright © ${new Date().getFullYear()} Site X, Inc. Built with Docusaurus. Powered by Wolf Studios.`,
