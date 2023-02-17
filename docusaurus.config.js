@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Site X | Handbooks',
+  title: 'Site X | The all Seeing',
   tagline: '',
   favicon: 'img/favicon.ico',
   
@@ -105,16 +105,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'N/A',
-                href: 'N/A',
-              },
-              {
                 label: 'Discord',
                 href: 'https://discord.gg/gQPgpp4aDe',
-              },
-              {
-                label: 'N/A',
-                href: 'N/A',
               },
             ],
           },
